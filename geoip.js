@@ -8,8 +8,8 @@ var app = express();
 app.use(bodyParser.json());
 
 app.get('/', function (req, res) {
-  console.log(req);
-  res.send(getip(req).city);
+    console.log(req);
+    res.send(getip(req).country);
 });
 
 app.get('/set/:id', function (req, res) {
@@ -17,7 +17,6 @@ app.get('/set/:id', function (req, res) {
     res.send(getip(req).city);
     Webtask.context.storage.set(req.params.id);
 });
-
 
 module.exports = Webtask.fromExpress(app);
 
