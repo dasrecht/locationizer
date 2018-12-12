@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "geoip-lite": "^1.3.5",
+    "webtask-tools": "^3.4.0"
+  }
+}
