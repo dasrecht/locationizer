@@ -15,7 +15,6 @@ app.get('/', function (req, res) {
 app.get('/set/:id', function (req, res) {
     console.log('ID: ' + req.params.id);
     res.send(getip(req).city);
-    Webtask.context.storage.set(req.params.id);
 });
 
 module.exports = Webtask.fromExpress(app);
