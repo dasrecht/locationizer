@@ -17,7 +17,7 @@ app.get('/set/:id', function (req, res) {
     res.send(getip(req).city);
     Webtask.context.storage.set(req.params.id);
 });
-sfadf
+
 
 module.exports = Webtask.fromExpress(app);
 
