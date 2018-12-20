@@ -13,7 +13,7 @@ app.get('/', function (req, res) {
 <html>
 <head>
 <meta charset=utf-8 />
-<title>Amazees Location</title>
+<title>Location</title>
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <script src='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
 <link href='https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
